@@ -1,0 +1,56 @@
+/* --- COLORES Y ESTILOS GENERALES --- */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.border-purple {
+  border: 2px solid #a030ff !important;
+}
+
+.neon-text {
+  color: #c77dff;
+  text-shadow: 0 0 8px #a855f7, 0 0 12px #a855f7;
+}
+
+/* --- NAVBAR --- */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #e0b3ff !important;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 6px #d599ff;
+}
+
+/* --- CARDS --- */
+.card {
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 15px #b76fff;
+}
+
+.card-img-top {
+  border-bottom: 2px solid #a030ff;
+}
+
+/* --- ASIDE --- */
+aside .card {
+  position: sticky;
+  top: 20px;
+}
+
+/* --- FOOTER --- */
+footer {
+  color: #cba7ff;
+  font-size: 0.9rem;
+}
